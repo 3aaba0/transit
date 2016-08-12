@@ -27,6 +27,23 @@ The deault response type is `text/plain`.  If you specify a `Accept: application
  * `direction` (required)
     * any of "north "east" "west" or "south"
 
+### errors
+
+Generally the api will tell you what you did wrong and return a 400 or 404 status code. For example, if you try to look for the "lake" stop on the 21, it will say:
+
+```
+Bad Request:
+
+Multiple stops found matching lake: 
+    Lake St and 36th Ave ,
+    Lake St/ Midtown Station,
+    Lake St and Cedar Ave ,
+    Chicago Lake Transit Center,
+    Lake St and Blaisdell Ave.
+
+Please narrow your search.
+```
+	
 ## Pre-requisites for developers
 
   * Visual Studio 2015 Update 3
