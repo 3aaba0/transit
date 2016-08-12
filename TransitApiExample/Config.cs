@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
 namespace TransitAPIExample
@@ -37,7 +38,8 @@ namespace TransitAPIExample
     {
         public static Result<string, string> Load(string path)
         {
-            var pathArray = PlatformServices.Default.Application.ApplicationBasePath.Split('\\').ToArray();
+            var pathSeparator = RuntimeInformation.IsOSPlatform(OSPlatform.Windows) ? '\\' : '/';
+            var pathArray = PlatformServices.Default.Application.ApplicationBasePath.Split(pathSeparator).ToArray();
 
             var projectName = nameof(TransitAPIExample);
             var indexOfProject = pathArray
