@@ -1,8 +1,8 @@
 FROM microsoft/dotnet:1.0.0-preview2-sdk
 
-COPY src/TansitApiExample /TansitApiExample
+COPY src/TransitApiExample /TransitApiExample
 
-WORKDIR /TansitApiExample
+WORKDIR /TransitApiExample
 
 RUN dotnet restore
 
