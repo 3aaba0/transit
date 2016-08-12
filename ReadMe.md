@@ -20,9 +20,12 @@ The deault response type is `text/plain`.  If you specify a `Accept: application
 
 ### URL Parameters
 
-`route` (required) any substring of a bus route name which matches *exactly one* bus route
-`stop` (required) any substring of a bus stop name on the specified route which matches *exactly one* stop
-`direction` (required) any of "north "east" "west" or "south"
+ * `route` (required)
+    * any substring of a bus route name which matches *exactly one* bus route
+ * `stop` (required)
+    * any substring of a bus stop name on the specified route which matches *exactly one* stop
+ * `direction` (required)
+    * any of "north "east" "west" or "south"
 
 ## Pre-requisites for developers
 
@@ -36,6 +39,8 @@ The deault response type is `text/plain`.  If you specify a `Accept: application
 Open the solution file in visual studo and press run.
 
 #### run tests 
+
+"Run all tests" in visual studio OR:
 
 ```
 PM> cd TransitApiExample.Tests
