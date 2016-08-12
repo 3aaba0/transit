@@ -26,6 +26,7 @@ The deault response type is `text/plain`.  If you specify a `Accept: application
 
 ## Pre-requisites for developers
 
+  * Visual Studio 2015 Update 3
   * .NET Core 1.0.0 preview 2 installed (as of 2016-06-28 this is the default to be installed via visual studio) 
      * `dotnet --version` returns `1.0.0-preview2-003121`
 	 * if you have `dnu` and `dnx` on your `PATH`, they should be uninstalled as they are replaced by the `dotnet` command.
