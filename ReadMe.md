@@ -5,7 +5,7 @@ Uses http://svc.metrotransit.org
 ##API example
 
 If you wanted to know when the next 21 bus leaves from Concordia going to the Midtown Global Market, you would use:
-https://transitexample.sequentialread.com?route=21&stop=hamline&direction=west
+https://transitexample.sequentialread.com/?route=21&stop=hamline&direction=west
 Your response would be a human readable duration, for example, 
 `5 Minutes`
 
