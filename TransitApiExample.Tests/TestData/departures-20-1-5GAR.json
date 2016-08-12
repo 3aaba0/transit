@@ -1,0 +1,44 @@
+﻿[
+  {
+    "Actual": false,
+    "BlockNumber": 1423,
+    "DepartureText": "6:00",
+    "DepartureTime": "/Date(1470999600000-0500)/",
+    "Description": "10St/Northstar Shuttle",
+    "Gate": "A",
+    "Route": "20",
+    "RouteDirection": "SOUTHBOUND",
+    "Terminal": "",
+    "VehicleHeading": 0,
+    "VehicleLatitude": 0,
+    "VehicleLongitude": 0
+  },
+  {
+    "Actual": false,
+    "BlockNumber": 1423,
+    "DepartureText": "6:48",
+    "DepartureTime": "/Date(1471002480000-0500)/",
+    "Description": "10St/Northstar Shuttle",
+    "Gate": "A",
+    "Route": "20",
+    "RouteDirection": "SOUTHBOUND",
+    "Terminal": "",
+    "VehicleHeading": 0,
+    "VehicleLatitude": 0,
+    "VehicleLongitude": 0
+  },
+  {
+    "Actual": false,
+    "BlockNumber": 1423,
+    "DepartureText": "7:18",
+    "DepartureTime": "/Date(1471004280000-0500)/",
+    "Description": "10St/Northstar Shuttle",
+    "Gate": "A",
+    "Route": "20",
+    "RouteDirection": "SOUTHBOUND",
+    "Terminal": "",
+    "VehicleHeading": 0,
+    "VehicleLatitude": 0,
+    "VehicleLongitude": 0
+  }
+]

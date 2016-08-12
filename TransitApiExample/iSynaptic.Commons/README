@@ -1,0 +1,14 @@
+﻿
+
+https://github.com/iSynaptic/iSynaptic.Commons
+iSynaptic.Commons is a C# extension and functional programming helper package. 
+It is not yet avaliable for .NET Core, but I love using it, so I grabbed a couple of the classes and plunked em in here. 
+
+Release Notes:
+https://github.com/iSynaptic/iSynaptic.Commons/blob/master/iSynaptic.Commons.ReleaseNotes.txt
+
+Compiled versions are available via NuGet:
+http://nuget.org/packages/iSynaptic.Commons
+
+License: MIT
+https://github.com/iSynaptic/iSynaptic.Commons/blob/master/LICENSE

@@ -1,0 +1,13 @@
+﻿{
+  "Directions": {
+    "1": "southbound",
+    "2": "eastbound",
+    "3": "westbound",
+    "4": "northbound"
+  },
+  "ApiUrl": "http://svc.metrotransit.org/nextrip",
+  "RoutesTTLSeconds": 60,
+  "DirectionsTTLSeconds": 6000,
+  "StopsTTLSeconds": 6000,
+  "DeparturesTTLSeconds": 60
+}
