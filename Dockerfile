@@ -1,6 +1,6 @@
 FROM microsoft/dotnet:1.0.0-preview2-sdk
 
-COPY src/TransitApiExample /TransitApiExample
+COPY /TransitApiExample /TransitApiExample
 
 WORKDIR /TransitApiExample
 
