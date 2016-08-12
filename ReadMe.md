@@ -75,13 +75,13 @@ SUMMARY: Total: 1 targets, Passed: 1, Failed: 0.
 PM> 
 ```
 
-#### how to build and run using the docker
+#### how to build and run using docker
 
 ```
 #cd to directory containing Dockerfile
 
-docker build -t 3aaba0/transit-example:<VERSION_HERE> .
+docker build -t 3aaba0/transit-example:0.0.2 .
 
-docker run -d -p 5000:5000 3aaba0/transit-example
+docker run -d -p 5000:5000 3aaba0/transit-example:0.0.2
 ```
 
